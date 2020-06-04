@@ -5,11 +5,9 @@
 }
 
 body {
-/* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
-
 
 /* Header Formats */
 header {
@@ -46,7 +44,9 @@ header {
     font-size: 22px;
   } 
 
-  /* Footer Formats */
+/* Header End */
+
+/* Footer Formats */
 
   footer {
     background: #fce138;
@@ -70,6 +70,8 @@ header {
   footer a {
     color: #024e76;
   }
+
+/* Footer End */
 
 /* Heroes with Style */
 
@@ -123,7 +125,9 @@ header {
   font-size: 16px;
 }
 
-/* End */
+/* Hero End */
+
+/* Steps */
 
 .intro {
   text-align: center;
@@ -182,6 +186,16 @@ header {
 .steps span {
   font-size: 38px;
 }
+
+/* Steps End */
+
+
+
+
+
+
+
+
 
 /* Misc */
 
