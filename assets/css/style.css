@@ -83,8 +83,6 @@ header {
   position: relative;
 }
 
-
-
 .hero-form {
   background-color: #fce138;
   padding: 20px;
@@ -166,7 +164,7 @@ header {
 }
 
 .steps div {
-  margin-bottom 80px;
+  margin-bottom: 80px;
 }
 
 .steps img {
