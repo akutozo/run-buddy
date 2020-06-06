@@ -148,11 +148,11 @@ header {
 
 .section-title {
   font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   display: inline-block;
+  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
 }
 
 .pb {
@@ -232,7 +232,23 @@ header {
 
 /* End Trainers */
 
+/* Reach Out */
 
+.contact {
+  text-align: center;
+  background-color: #024e76;
+}
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+/*End Reach Out*/
 
 /* Misc */
 
