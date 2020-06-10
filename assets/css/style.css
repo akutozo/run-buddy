@@ -10,11 +10,13 @@ body {
   }
 
 /* Header Formats */
-
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   header h1 {
@@ -22,7 +24,6 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
 
   header a {
@@ -31,7 +32,6 @@ header {
   }
 
   header nav {
-    float:right;
     margin: 7px 0;
   }
 
@@ -47,17 +47,34 @@ header {
 
 /* Header End */
 
+/* Footer Formats */
+
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  footer a {
+    color: #024e76;
+  }
+
+/* Footer End */
+
 /* Heroes with Style */
-
-.hero-info {
-  color :white;
-  
-}
-
-.hero-info h2 {
-  color: #fce138;
-  font-style: italic;
-}
 
 .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -273,30 +290,3 @@ header {
     padding: 60px;
     }
 
-
-/* Footer Formats */
-
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-}
-
-footer h2 {
-  display: inline;
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  float: right;
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
-
-/* Footer End */
