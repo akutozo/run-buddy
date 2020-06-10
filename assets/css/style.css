@@ -49,6 +49,16 @@ header {
 
 /* Heroes with Style */
 
+.hero-info {
+  color :white;
+  
+}
+
+.hero-info h2 {
+  color: #fce138;
+  font-style: italic;
+}
+
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
